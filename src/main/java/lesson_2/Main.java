@@ -1,4 +1,4 @@
-package com.galdanvil;
+package lesson_2;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -132,10 +132,11 @@ public class Main {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 6) {
                 arr[i] *= 2;
-            }
+                    }
         }
         System.out.println("Задание 12: " + java.util.Arrays.toString(arr));
     }
+
 
     // 13. Квадратный двумерный массив с единицами по диагонали
     public static void createDiagonalMatrix() {
